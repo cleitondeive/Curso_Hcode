@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*Formatação da Nav*/
+
+*{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.h3-titulocorlamp{
+	color: #0F67EA;
+}
+
+.hr-cor{
+	border: 2px solid #c00;
+	box-shadow: 1px 1px 4px black;
+}
+

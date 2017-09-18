@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*Formatação da Nav*/
+
+*{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+#xti{
+	display: block;
+	margin: 20px;
+	margin: auto;
+}

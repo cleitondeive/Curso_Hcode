@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Formatação da Nav*/
+
+*{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+body{
+	background-image: url('../img/fundo.jpg');
+}
+
+.h1-titulocor{
+	color: #EEEEEC;
+}
+
+#rel{
+	color: #C00;
+	font: bold 200px arial;
+	padding: 120px;
+	text-align: center;
+	text-shadow:  10px 10px 20px black;
+
+}
+
