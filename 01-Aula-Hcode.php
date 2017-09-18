@@ -41,6 +41,13 @@
 <hr>
 
 <!--inicio do Curso Php-->
+#Abertua da Super-Tag
+ <?php
+	$nome = "Hcode";
+
+	echo "$nome";
+
+   ?>
 
 
 
