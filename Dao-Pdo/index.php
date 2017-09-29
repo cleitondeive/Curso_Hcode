@@ -34,24 +34,36 @@
 
 <div class="container">
 	<div class="colxs12">
-		<h1 class="h1-titulocor">Exemplo-01 DAO-PDO.</h1>
+		<h1 class="h1-titulocor">Exemplo-01 DAO-PDO-Select.</h1>
 	</div>
 
 </div>
 <hr>
 
 <!--inicio do Curso Php-->
-<h1>Lets-go ex-01.Seção DAO-PDO.....</h1>
+<h1>Lets-go ex-01.Seção DAO-PDO.SELECT....</h1>
 <hr>
 
 <?php
 # PHP 7 Exemplo-01 DAO-PDO
-require_once("config.php");
-
+# PHP 7 Exemplo-02 DAO-PDO
+/*
+//Uso de um simples select simples de todos os dados
 $sql = new sql();
 $usuarios = $sql->select("SELECT * FROM tb_usuarios");
 
 echo json_encode($usuarios);
+*/
+
+
+//Carrega um usuário
+
+require_once("config.php");
+
+$sql = new Sql();
+$usuarios = $sql->select("SELECT * FROM tb_usuarios");
+echo
+json_encode($usuarios);
 
  ?>
 
