@@ -1,0 +1,15 @@
+{
+    "name": "webmarsti/composer",
+    "description": "Curso de Php-07 Hcode",
+    "type": "project",
+    "authors": [
+        {
+            "name": "cleitondeive",
+            "email": "cleitondeive@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "monolog/monolog":"1.0.0"
+    }
+}
